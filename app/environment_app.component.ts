@@ -15,7 +15,7 @@ import {Component, View} from "angular2/core";
     <h3>India capital is: {{capital}}</h3><br>
 
     <h2>Showing data using array property with NgFor</h2>
-    <h3>My favorite fruit is: {{myfruit}}</h3>
+    <h3>My favorite fruit is: {{myfruit}} </h3>
     <p>List of Fruits:</p>
     <ul>
        <li *ngFor="#fruit of fruits">
